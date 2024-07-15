@@ -16,7 +16,6 @@ header {
 
 header .logo img {
     height: 50px;
-    margin-left: 700px;
 }
 
 header nav ul {
@@ -93,6 +92,41 @@ footer {
 }
 
 .hero-image img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* About Page Styles */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 1rem;
+    background-color: #f3e5f5;
+    color: #6a1b9a;
+    text-align: left;
+}
+
+.about-content {
+    max-width: 50%;
+    margin-right: 2rem;
+}
+
+.about h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.about-image {
+    max-width: 45%;
+}
+
+.about-image img {
     width: 100%;
     border-radius: 1rem;
 }
